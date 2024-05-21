@@ -11,6 +11,9 @@
 		5E5961392BFB7C010098705B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961382BFB7C010098705B /* ContentView.swift */; };
 		5E59613B2BFB7C030098705B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59613A2BFB7C030098705B /* Assets.xcassets */; };
 		5E59613F2BFB7C030098705B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59613E2BFB7C030098705B /* Preview Assets.xcassets */; };
+		5E5961682BFD3D0A0098705B /* TaxiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961672BFD3D0A0098705B /* TaxiView.swift */; };
+		5E59616A2BFD3D330098705B /* TaxiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961692BFD3D320098705B /* TaxiViewModel.swift */; };
+		5E59616C2BFD49640098705B /* TaxiUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59616B2BFD49640098705B /* TaxiUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5E59613A2BFB7C030098705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E59613C2BFB7C030098705B /* CombineDZ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineDZ.entitlements; sourceTree = "<group>"; };
 		5E59613E2BFB7C030098705B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E5961672BFD3D0A0098705B /* TaxiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiView.swift; sourceTree = "<group>"; };
+		5E5961692BFD3D320098705B /* TaxiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewModel.swift; sourceTree = "<group>"; };
+		5E59616B2BFD49640098705B /* TaxiUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		5E59612A2BFB7C010098705B = {
 			isa = PBXGroup;
 			children = (
+				5E59616B2BFD49640098705B /* TaxiUIKit.swift */,
 				5E5961352BFB7C010098705B /* CombineDZ */,
 				5E5961342BFB7C010098705B /* Products */,
 			);
@@ -54,6 +61,8 @@
 			children = (
 				5E5961362BFB7C010098705B /* CombineDZApp.swift */,
 				5E5961382BFB7C010098705B /* ContentView.swift */,
+				5E5961672BFD3D0A0098705B /* TaxiView.swift */,
+				5E5961692BFD3D320098705B /* TaxiViewModel.swift */,
 				5E59613A2BFB7C030098705B /* Assets.xcassets */,
 				5E59613C2BFB7C030098705B /* CombineDZ.entitlements */,
 				5E59613D2BFB7C030098705B /* Preview Content */,
@@ -139,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59616C2BFD49640098705B /* TaxiUIKit.swift in Sources */,
+				5E59616A2BFD3D330098705B /* TaxiViewModel.swift in Sources */,
+				5E5961682BFD3D0A0098705B /* TaxiView.swift in Sources */,
 				5E5961392BFB7C010098705B /* ContentView.swift in Sources */,
 				5E5961372BFB7C010098705B /* CombineDZApp.swift in Sources */,
 			);
@@ -284,7 +296,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -322,7 +334,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
