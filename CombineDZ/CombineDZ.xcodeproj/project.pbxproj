@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5E5961372BFB7C010098705B /* CombineDZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961362BFB7C010098705B /* CombineDZApp.swift */; };
-		5E5961392BFB7C010098705B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961382BFB7C010098705B /* ContentView.swift */; };
+		5E5961392BFB7C010098705B /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961382BFB7C010098705B /* BasketView.swift */; };
 		5E59613B2BFB7C030098705B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59613A2BFB7C030098705B /* Assets.xcassets */; };
 		5E59613F2BFB7C030098705B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59613E2BFB7C030098705B /* Preview Assets.xcassets */; };
+		5E5961722BFD59D20098705B /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961712BFD59D20098705B /* BasketViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E5961332BFB7C010098705B /* CombineDZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineDZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5961362BFB7C010098705B /* CombineDZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDZApp.swift; sourceTree = "<group>"; };
-		5E5961382BFB7C010098705B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E5961382BFB7C010098705B /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
 		5E59613A2BFB7C030098705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E59613C2BFB7C030098705B /* CombineDZ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineDZ.entitlements; sourceTree = "<group>"; };
 		5E59613E2BFB7C030098705B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E5961712BFD59D20098705B /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				5E5961362BFB7C010098705B /* CombineDZApp.swift */,
-				5E5961382BFB7C010098705B /* ContentView.swift */,
+				5E5961382BFB7C010098705B /* BasketView.swift */,
+				5E5961712BFD59D20098705B /* BasketViewModel.swift */,
 				5E59613A2BFB7C030098705B /* Assets.xcassets */,
 				5E59613C2BFB7C030098705B /* CombineDZ.entitlements */,
 				5E59613D2BFB7C030098705B /* Preview Content */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E5961392BFB7C010098705B /* ContentView.swift in Sources */,
+				5E5961392BFB7C010098705B /* BasketView.swift in Sources */,
+				5E5961722BFD59D20098705B /* BasketViewModel.swift in Sources */,
 				5E5961372BFB7C010098705B /* CombineDZApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
