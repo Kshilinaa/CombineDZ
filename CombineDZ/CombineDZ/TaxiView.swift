@@ -10,7 +10,7 @@ import Combine
 
 struct TaxiView: View {
     // MARK: - StateObject
-    @StateObject var fakeTaxiViewModel = TaxiViewModel()
+    @StateObject var taxiViewModel = TaxiViewModel()
     // MARK: - Body
     var body: some View {
         VStack {
@@ -32,7 +32,7 @@ struct TaxiView: View {
     }
     // MARK: - Visual Components
     private var textFirstView: some View {
-        Text(fakeTaxiViewModel.data)
+        Text(taxiViewModel.data)
             .font(.headline)
             .foregroundColor(.white)
             .padding()
@@ -43,7 +43,7 @@ struct TaxiView: View {
     }
     
     private var textSecondView: some View {
-        Text(fakeTaxiViewModel.status)
+        Text(taxiViewModel.status)
             .foregroundColor(.red)
             .padding()
             .background(Color.gray.opacity(0.2))
@@ -54,7 +54,7 @@ struct TaxiView: View {
     
     private var cancelButtonView: some View {
         Button {
-            fakeTaxiViewModel.cancel()
+            taxiViewModel.cancel()
         } label: {
             Text("Отменить заказ")
                 .foregroundColor(.white)
@@ -69,7 +69,7 @@ struct TaxiView: View {
     
     private var readyButtonView: some View {
         Button {
-            fakeTaxiViewModel.refresh()
+            taxiViewModel.refresh()
         } label: {
             Text("Заказать такси")
                 .foregroundColor(.white)
