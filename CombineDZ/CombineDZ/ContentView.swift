@@ -6,19 +6,41 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    // MARK: - StateObject
+    @StateObject var viewModel = ContentViewModel()
+    //MARK: - Body
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Form {
+                Section(header: Text("")) {
+                    List(viewModel.dataToView, id: \.self) { item in
+                        Text(item)
+                    }
+                }
+            }
+            HStack(spacing: 60) {
+                addButtonView
+                deleteButtonView
+            }
+            .frame(height: 50)
         }
-        .padding()
+    }
+    // MARK: - Visual Components
+    private var addButtonView: some View {
+        Button("Добавить фрукт") {
+            viewModel.addFruit()
+        }
+    }
+    
+    private var deleteButtonView: some View {
+        Button("Удалить фрукт") {
+            viewModel.deleteFruit()
+        }
     }
 }
-
 #Preview {
     ContentView()
 }
