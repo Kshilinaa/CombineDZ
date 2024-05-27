@@ -11,6 +11,7 @@
 		5E5961392BFB7C010098705B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5961382BFB7C010098705B /* ContentView.swift */; };
 		5E59613B2BFB7C030098705B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59613A2BFB7C030098705B /* Assets.xcassets */; };
 		5E59613F2BFB7C030098705B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E59613E2BFB7C030098705B /* Preview Assets.xcassets */; };
+		5E6B89632C046F8D008D8FC7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B89622C046F8D008D8FC7 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5E59613A2BFB7C030098705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E59613C2BFB7C030098705B /* CombineDZ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineDZ.entitlements; sourceTree = "<group>"; };
 		5E59613E2BFB7C030098705B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E6B89622C046F8D008D8FC7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5E5961362BFB7C010098705B /* CombineDZApp.swift */,
 				5E5961382BFB7C010098705B /* ContentView.swift */,
+				5E6B89622C046F8D008D8FC7 /* ContentViewModel.swift */,
 				5E59613A2BFB7C030098705B /* Assets.xcassets */,
 				5E59613C2BFB7C030098705B /* CombineDZ.entitlements */,
 				5E59613D2BFB7C030098705B /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				5E5961392BFB7C010098705B /* ContentView.swift in Sources */,
 				5E5961372BFB7C010098705B /* CombineDZApp.swift in Sources */,
+				5E6B89632C046F8D008D8FC7 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
